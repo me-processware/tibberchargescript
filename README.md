@@ -11,7 +11,7 @@ update variables and run with crontab -e every hour
 
 when run in console next items wil be visible:
 
-![image](https://user-images.githubusercontent.com/61116413/212589356-58257172-fce0-4203-b38a-fb44637d1961.png)
+![image](https://user-images.githubusercontent.com/61116413/212590730-793bb124-2ba7-4ae1-a4fe-9fbf303d6ac2.png)
 
 for domoticz:
 
