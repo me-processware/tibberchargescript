@@ -1,5 +1,8 @@
 # tibberchargescript
-smal python3 script to retrieve 24h prices make a selection and write it to a domoticz IDX
+i use this script to charge my battery daily (16kw) to charge in the cheapest hours possible whit lots of trial and error. 
+i think this is the best aproach but any input is usefull 
+
+smal python3 script to retrieve 24h prices and amount of charge hours. make a selection from the lowest 5 values and write the 5'th highest value back to a domoticz IDX
 
 create idx virtual sensors in domoticz
 download py file to home/$user location 
@@ -7,6 +10,7 @@ make executable chmod u+x tibber-charge-script.py
 update variables and run with crontab -e every hour 
 
 when run in console next items wil be visible:
+
 ![image](https://user-images.githubusercontent.com/61116413/212589356-58257172-fce0-4203-b38a-fb44637d1961.png)
 
 for domoticz:
