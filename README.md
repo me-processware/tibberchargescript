@@ -17,7 +17,4 @@ for domoticz:
 
 ![image](https://user-images.githubusercontent.com/61116413/212589480-0270dcdd-ec2c-47e9-be63-342308ac7b11.png)
 
-and my own blockly (work in progress)
-
-![image](https://user-images.githubusercontent.com/61116413/212589984-0f0a5de5-a8f3-41ac-ba76-ad6ae08c9e09.png)
 
