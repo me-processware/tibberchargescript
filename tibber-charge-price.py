@@ -73,7 +73,7 @@ for home in data['data']['viewer']['homes']:
             requests.get(f'http://{Domoticz_IP}:{Domoticz_Port}/json.htm?type=command&param=udevice&idx={Domoticz_IDX_first_charge_price}&nvalue=0&svalue={first_charge_price}')
             requests.get(f'http://{Domoticz_IP}:{Domoticz_Port}/json.htm?type=command&param=udevice&idx={Domoticz_IDX_current_price}&nvalue=0&svalue={current_price}')
             # Enable switch
-            if current_price <= first_charge_price:
-                response = requests.get(f'http://{Domoticz_IP}:{Domoticz_Port}/json.htm?type=command&param=switchlight&idx={Domoticz_IDX_chage_switch}&switchcmd=On')
+            if current_price <= charge_price:
+                response = requests.get(f'http://{Domoticz_IP}:{Domoticz_Port}/json.htm?type=command&param=switchlight&idx={Domoticz_IDX_charge_switch}&switchcmd=On')
             else:
-                response = requests.get(f'http://{Domoticz_IP}:{Domoticz_Port}/json.htm?type=command&param=switchlight&idx={Domoticz_IDX_chage_switch}&switchcmd=Off')
+                response = requests.get(f'http://{Domoticz_IP}:{Domoticz_Port}/json.htm?type=command&param=switchlight&idx={Domoticz_IDX_charge_switch}&switchcmd=Off')
