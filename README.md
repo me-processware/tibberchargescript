@@ -17,4 +17,7 @@ for domoticz:
 
 ![image](https://user-images.githubusercontent.com/61116413/212589480-0270dcdd-ec2c-47e9-be63-342308ac7b11.png)
 
+![image](https://user-images.githubusercontent.com/61116413/215923310-7c4ae489-c8b3-4f53-bb03-68b347f3ed29.png)
+
+
 
